@@ -4,3 +4,4 @@ project(AB_Final_Project_MPL)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Werror=return-type")
 
+add_executable(MPL main.cpp manipulator.py)

@@ -1,2 +1,5 @@
 cmake-build-debug/
 .idea/
+CMakeLists.txt
+Rubric.md
+a.exe
