@@ -4,8 +4,18 @@
 This program allows a user to take a desired sound file (supports most extensions),
 adds an effect to it, then plays it back.
 
-Through any command line interface, navigate to the directory of which the program files are located.
+Through any command line interface, navigate to the directory of which the project files are located.
+Using the `g++ -std=c++1y main.cpp` command compiles the program, 
+and `./a.exe` will execute the program.
 
+The options for audio manipulation are:
+
+- Reverse - Reverses the sound of an audio file.
+- Speed - Changes the rate, as well as the pitch, at which an audio file is played.
+- Tempo - Changes the rate at which an audio file is played (pitch remains intact).
+- Reverb - Adds a reverb, or echo, effect to an audio file.
+
+See _Usage_ for an example of how to use this program.
 
 ## Requirements
 This program utilizes:
